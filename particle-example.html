@@ -1,0 +1,9 @@
+<body>
+  {{#each getRealtimeEvents}}
+    <div>
+      <div>Event is from Photon #{{device_id}}.</div>
+      <div>Event arrived at {{timestamp}}</div>
+      <div>Event message content: {{message}}.</div>
+    </div>
+  {{/each}}
+</body>
